@@ -11,7 +11,7 @@ function HomePlusOne(){
 
 function HomePlusTwo(){
     homeScore += 2
-    homeScoreEl.innerText = guestScore
+    homeScoreEl.innerText = homeScore
 }
 
 function HomePlusThree(){
