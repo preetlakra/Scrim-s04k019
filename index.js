@@ -51,3 +51,11 @@ function reset(){
   homeScore = 0
 
 }
+
+homePlusOneBtn.addEventListener("click", HomePlusOne)
+homePlusTwoBtn.addEventListener("click", HomePlusTwo)
+homePlusThreeBtn.addEventListener("click", HomePlusThree)
+guestPlusOneBtn.addEventListener("click", GuestPlusOne)
+guestPlusTwoBtn.addEventListener("click", GuestPlusTwo)
+guestPlusThreeBtn.addEventListener("click", GuestPlusThree)
+resetBtn.addEventListener("click", reset)
