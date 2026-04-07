@@ -12,30 +12,30 @@
                         <p id="homeScore"> 0 </p>
                     </div>         
                     <div class="buttons">
-                        <button onclick="HomePlusOne()"> +1 </button>
-                        <button onclick="HomePlusTwo()"> +2 </button>
-                        <button onclick="HomePlusThree()"> +3 </button>
+                        <button id="home-plus-one"> +1 </button>
+                        <button id="home-plus-two"> +2 </button>
+                        <button id="home-plus-three"> +3 </button>
                     </div>       
             </div>    
             
-            <div id="guest-container ">
+            <div id="guest-container">
                 <h3>GUEST</h3>
                     <div class="score-container">
                         <p id="guestScore"> 0 </p>
                     </div>
                     <div class="buttons">
-                        <button onclick="GuestPlusOne()"> +1 </button>
-                        <button onclick="GuestPlusTwo()"> +2 </button>
-                        <button onclick="GuestPlusThree()"> +3 </button>
+                        <button id="guest-plus-one"> +1 </button>
+                        <button id="guest-plus-two"> +2 </button>
+                        <button id="guest-plus-three"> +3 </button>
                     </div>
             </div>
             
         </div>
         
         <div id="reset-btn">
-            <button id="reset-button" onclick="reset()"> Reset </button>
+            <button id="reset-button"> Reset </button>
         </div>
         
-        <script src="index.js"></script>
+        <script type="module" src="index.js"></script>
     </body>
 </html>

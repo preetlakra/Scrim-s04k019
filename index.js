@@ -1,5 +1,12 @@
 let homeScoreEl = document.getElementById("homeScore")
 let guestScoreEl = document.getElementById("guestScore")
+let homePlusOneBtn = document.getElementById("home-plus-one")
+let homePlusTwoBtn = document.getElementById("home-plus-two")
+let homePlusThreeBtn = document.getElementById("home-plus-three")
+let guestPlusOneBtn = document.getElementById("guest-plus-one")
+let guestPlusTwoBtn = document.getElementById("guest-plus-two")
+let guestPlusThreeBtn = document.getElementById("guest-plus-three")
+let resetBtn = document.getElementById("reset-button")
 
 let homeScore = 0
 let guestScore = 0 
